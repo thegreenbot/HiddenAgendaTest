@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 10%;
+  padding: 0 2em 2em;
+  max-width: 400px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  display: flex;
+  gap: 5px;
+}
+
+.screen {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  display: block;
+  flex: 1 100%;
+}
+
+canvas {
+  display: block;
+  background: blue;
+}
